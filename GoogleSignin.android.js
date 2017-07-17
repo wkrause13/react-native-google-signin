@@ -1,4 +1,6 @@
-import React, { Component, PropTypes, ViewPropTypes } from 'react';
+import React, { Component, ViewPropTypes } from 'react';
+
+import PropTypes from "prop-types";
 
 import {
   View,
@@ -9,14 +11,10 @@ import {
 
 const { RNGoogleSignin } = NativeModules;
 
-const RNGoogleSigninButton = requireNativeComponent('RNGoogleSigninButton', {
-  name: 'RNGoogleSigninButton',
-  propTypes: {
-    ...ViewPropTypes,
-    size: PropTypes.number,
-    color: PropTypes.number
-  }
-});
+const RNGoogleSigninButton = requireNativeComponent(
+  "RNGoogleSigninButton",
+  null
+);
 
 class GoogleSigninButton extends Component {
   componentDidMount() {
