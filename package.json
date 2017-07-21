@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devfd/react-native-google-signin"
+    "url": "https://github.com/wkrause13/react-native-google-signin"
   },
   "bugs": {
-    "url": "https://github.com/devfd/react-native-google-signin/issues"
+    "url": "https://github.com/wkrause13/react-native-google-signin/issues"
   },
   "rnpm": {
     "ios": {
@@ -40,6 +40,6 @@
       ]
     }
   },
-  "homepage": "https://github.com/devfd/react-native-google-signin",
+  "homepage": "https://github.com/wkrause13/react-native-google-signin",
   "license": "MIT"
 }
